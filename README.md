@@ -1,7 +1,13 @@
 # Usage
 ```
-# Compilation
+# Clone repo
+git clone <repo-key>
+cd libsbsms
 
+# Requirements: mad and sndfile
+brew install libmad libsndfile
+
+# Compilation
 cd example
 mkdir build
 cd build
